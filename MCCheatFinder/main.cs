@@ -271,6 +271,70 @@ namespace MCCheatFinder
             {
                 richTextBox1.Text = richTextBox1.Text + "\n" + mcversions[40] + impactversions[1] + " НЕ найден.";
             }
+            if (Directory.Exists(mcdir + "\\" + "Matix1.12.2"))
+            {
+                richTextBox1.Text = richTextBox1.Text + "\n" + "Найден " + "Matix1.12.2";
+            }
+            else
+            {
+                richTextBox1.Text = richTextBox1.Text + "\n" + "Matix1.12.2" + " НЕ найден.";
+            }
+            if (Directory.Exists(mcdir + "\\" + "Matix1.12.1"))
+            {
+                richTextBox1.Text = richTextBox1.Text + "\n" + "Найден " + "Matix1.12.1";
+            }
+            else
+            {
+                richTextBox1.Text = richTextBox1.Text + "\n" + "Matix1.12.1" + " НЕ найден.";
+            }
+            if (Directory.Exists(mcdir + "\\" + "Matix1.12"))
+            {
+                richTextBox1.Text = richTextBox1.Text + "\n" + "Найден " + "Matix1.12";
+            }
+            else
+            {
+                richTextBox1.Text = richTextBox1.Text + "\n" + "Matix1.12" + " НЕ найден.";
+            }
+            if (Directory.Exists(mcdir + "\\" + "Matix1.11.2"))
+            {
+                richTextBox1.Text = richTextBox1.Text + "\n" + "Найден " + "Matix1.11.2";
+            }
+            else
+            {
+                richTextBox1.Text = richTextBox1.Text + "\n" + "Matix1.11.2" + " НЕ найден.";
+            }
+            if (Directory.Exists(mcdir + "\\" + "Matix1.10"))
+            {
+                richTextBox1.Text = richTextBox1.Text + "\n" + "Найден " + "Matix1.10";
+            }
+            else
+            {
+                richTextBox1.Text = richTextBox1.Text + "\n" + "Matix1.10" + " НЕ найден.";
+            }
+            if (Directory.Exists(mcdir + "\\" + "Matix1.9.4"))
+            {
+                richTextBox1.Text = richTextBox1.Text + "\n" + "Найден " + "Matix1.9.4";
+            }
+            else
+            {
+                richTextBox1.Text = richTextBox1.Text + "\n" + "Matix1.9.4" + " НЕ найден.";
+            }
+            if (Directory.Exists(mcdir + "\\" + "Matix1.9"))
+            {
+                richTextBox1.Text = richTextBox1.Text + "\n" + "Найден " + "Matix1.9";
+            }
+            else
+            {
+                richTextBox1.Text = richTextBox1.Text + "\n" + "Matix1.9" + " НЕ найден.";
+            }
+            if (Directory.Exists(mcdir + "\\" + "Matix1.8"))
+            {
+                richTextBox1.Text = richTextBox1.Text + "\n" + "Найден " + "Matix1.8";
+            }
+            else
+            {
+                richTextBox1.Text = richTextBox1.Text + "\n" + "Matix1.8" + " НЕ найден.";
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
